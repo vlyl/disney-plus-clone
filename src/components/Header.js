@@ -44,6 +44,7 @@ const Nav = styled.nav`
   display: flex;    // flex layout
   align-items: center;
   padding: 0 36px;  // 上边下边 | 左边右边 
+  overflow-x: hidden;
 `
 
 const Logo = styled.img`
@@ -68,6 +69,7 @@ const NaveMenu = styled.div`
       font-size: 13px;
       letter-spacing: 1.42px;
       position: relative;
+      overflow-x: hidden;
 
       &:after {
         content: "";
